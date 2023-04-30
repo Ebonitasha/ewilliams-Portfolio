@@ -1572,6 +1572,20 @@ input, select, textarea {
 		align-items: center;
 		flex-direction: column;
 	}
+	.head-container{
+		display: flex;
+		flex-direction: row;
+		width: 100%;
+	}
+	.head-title{
+	width:130%;
+	position: relative;	
+	top: 15rem;
+	
+	}
+	.head-img{
+		width:80%;
+	}
 
 	.image-container{
 		width: 200%;
@@ -1580,8 +1594,11 @@ input, select, textarea {
 		display: inline-block;
 	}
 	.profile-img{
-	
+		width: 100%;
+		/* position: absolute;
+		left: 20rem; */
 	}
+	
 	.about-photo{
 		border: 3px solid black;
 		width: 30%;
@@ -2256,6 +2273,20 @@ input, select, textarea {
 			#footer .copyright li {
 				padding-left: 0.5em;
 				margin-left: 0.5em;
+			}
+
+			@media only screen and (max-width: 450px){
+				
+			.profile-img{
+				width: 75%;
+				height: 70vh;
+				position: relative;
+				top: 8rem;
+				
+				
+			}
+
+
 			}
 
 		}
