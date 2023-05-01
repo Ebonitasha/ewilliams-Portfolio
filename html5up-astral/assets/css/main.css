@@ -2306,9 +2306,10 @@ input, select, textarea {
 			justify-content: center;
 			position: relative;
 			align-items: center;
-				width:100%;
+				width:90%;
 				height: 52vh;
 				bottom: 1.5rem; 
+				left: 1rem;
 				
 			}
 			.head-img{
@@ -2319,7 +2320,7 @@ input, select, textarea {
 			.about-photo{
 				border: 3px solid black;
 				width: 60%;
-				height: 50vh;
+				height: 45vh;
 			}
 				
 			} 
