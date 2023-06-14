@@ -1606,7 +1606,7 @@ input, select, textarea {
 	.about-photo{
 		border: 3px solid black;
 		width: 45%;
-		height: 60vh;
+		height: 50vh;
 	}
 
 		.image img {
@@ -1640,7 +1640,7 @@ input, select, textarea {
 			margin: 0 auto;
 			width: auto;
 			}
-		.email{
+		.emailBtn{
 			position: relative;
 			top: 3rem;
 			left: 10rem;
